@@ -5,6 +5,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 import rootRouter from './router/router';
+import errorHandler from './middlewares/error';
 
 const port = process.env.PORT;
 const app = express();
@@ -14,6 +15,7 @@ app.use(express.json());
 
 app.use('/api', rootRouter)
 
+app.use(errorHandler)
 app.listen(port, () => {
   // tslint:disable-next-line: no-console
   return console.log(`server is listening on ${port}`);
