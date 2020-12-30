@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "ts-node src/app.ts",
     "start": "ts-node dist/src/app.js",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "migrate-up": "env-cmd db-migrate up",
+    "migrate-down": "env-cmd db-migrate down"
   },
   "author": "sayooj",
   "license": "MIT",
