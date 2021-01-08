@@ -4,6 +4,7 @@ This is a sample rest server implementation in clean code architecture
 
 # Setup
 
+- Clone the repository
 - run npm install
 - run npm install -g db-migrate
 - run npm install -g db-migrate-pg
