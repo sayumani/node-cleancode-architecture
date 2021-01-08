@@ -1,2 +1,2 @@
 export const DEFAULT_PAGE = 1
-export const RESULT_LIMIT = 100
+export const DEFAULT_RESULT_LIMIT = 100
