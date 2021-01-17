@@ -27,7 +27,7 @@ export class UserUsecase {
             }))
             const response: GetUsersResponse = {
                 page: req.page,
-                resultLimit: req.resultLimit,
+                resultCount: res.length,
                 nextPage: nextPage,
                 users: usersList
             };
@@ -36,7 +36,7 @@ export class UserUsecase {
         else {
             const response: GetUsersResponse = {
                 page: req.page,
-                resultLimit: req.resultLimit,
+                resultCount: 0,
                 nextPage: nextPage,
                 users: []
             };
