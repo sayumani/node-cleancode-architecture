@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/sayumani/node-cleancode-architecture.svg?branch=main)](https://travis-ci.org/sayumani/node-cleancode-architecture)
-
 [![Coverage Status](https://coveralls.io/repos/github/sayumani/node-cleancode-architecture/badge.svg?branch=main)](https://coveralls.io/github/sayumani/node-cleancode-architecture?branch=main)
 
 # Clean code architecture
