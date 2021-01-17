@@ -23,3 +23,5 @@ app.listen(port, () => {
   // tslint:disable-next-line: no-console
   console.log('Error happened: ', e.message)
 })
+
+export default app;
