@@ -4,8 +4,8 @@
   "description": "node ts app",
   "main": "dist/app.js",
   "scripts": {
-    "dev": "ts-node src/app.ts",
-    "start": "ts-node dist/src/app.js",
+    "dev": "ts-node src/index.ts",
+    "start": "ts-node dist/src/index.js",
     "build": "npx tsc -p .",
     "migrate-up": "env-cmd db-migrate up",
     "migrate-down": "env-cmd db-migrate down",
